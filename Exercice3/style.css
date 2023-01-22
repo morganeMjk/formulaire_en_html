@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    background-color: rgb(231, 231, 231);
+}
+
+header , main {
+    width: 65%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 2px 1px 5px rgb(81, 81, 82);
+    background-color: rgb(243, 243, 243);
+}
+
+header {
+    text-align: center;
+    margin-top: 75px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header p {
+    font-style: italic;
+}
+
+main {
+    margin-top: 50px;
+}
+
+input {
+    height: 30px;
+    padding-left: 10px;
+}
+
+.civilite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.civilite input {
+    margin: 0px  20px;
+}
+
+.coordonnees {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.coordonnees input {
+    margin: 0px 50px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+}
+
+.poste {
+    display: flex;
+    align-items: center;
+}
+
+.poste h2 {
+    margin-right: 50px;
+}
+
+select {
+    height: 30px;
+}
+
+.diplomes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.diplomes h2 {
+    margin-right: 20px;
+}
+
+.diplomes .input {
+    margin : 0px 30px;
+}
+
+.dernierPoste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dernierPoste label {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+textarea {
+    text-align: center;
+    resize: none;
+}
+
+.cv {
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cv label {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+button{
+    height: 40px;
+    width: 130px;
+    margin-left: 700px;
+}
+
+
+
+input , textarea , .cv { 
+    box-shadow: 1px 1px 1px grey;
+}

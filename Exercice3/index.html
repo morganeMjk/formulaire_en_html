@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Dossier de recrutement</h1>
+        <p>Merci de bien vouloir remplir l'intégralité du formulaire ci-dessous et d'y joindre votre CV.</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <h2>Civilité</h2>
+            <div class="civilite">
+                <div class="input">
+                    <input type="radio" name="civilite" id="madame"><label for="madame">Madame</label>
+                </div>
+                <div class="input">
+                    <input type="radio" name="civilite" id="monsieur"><label for="monsieur">Monsieur</label>
+                </div>
+                <input type="text" name="nomInput" id="nomInput" placeholder="Nom" required>
+                <input type="text" name="prenomInput" id="prenomInput" placeholder="Prénom" required>
+            </div>
+
+            <h2>Coordonnées</h2>
+            <div class="coordonnees">
+                <input type="tel" name="telInput" id="telInput" placeholder="N° de téléphone" required>
+                <input type="email" name="emailInput" id="emailInput" placeholder="Adresse mail" required>
+            </div>
+            
+            <div class="poste">
+                <h2>Poste souhaité</h2>
+                <div>
+                    <select name="poste" id="poste">
+                        <option value="ads">Agent De Sécurité</option>
+                        <option value="ssiap1">Agent des Services de Sécurité Incendie</option>
+                        <option value="ssiap2">Responsable des Services de Sécurité Incendie</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="diplomes">
+                <h2>Diplomes</h2>
+                    <div class="input">
+                        <input type="checkbox" name="cqp" id="cqp"><label for="cqp">CQP APS</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="sst" id="sst"><label for="sst">SST</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="ssiap1" id="ssiap1"><label for="ssiap1">SSIAP1</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="ssiap2" id="ssiap2"><label for="ssiap2">SSIAP2</label>
+                    </div>
+            </div>
+
+            <div class="dernierPoste">
+                <label for="dernierPoste">Veuillez détaillez ci-dessous votre dernier poste :</label>
+                <textarea id="dernierPoste" name="dernierPoste" placeholder="Employeur, type de poste, horaires, missions, type de contrat..." rows="15" cols="80"></textarea>
+            </div>
+
+            <div class="cv">
+                <label for="cv">Téléchargez votre CV</label>
+                <input type="file" name="cv" id="cv">
+            </div>
+        </form>
+        <button type="submit">Valider</button>
+    </main>
+</body>
+</html>
